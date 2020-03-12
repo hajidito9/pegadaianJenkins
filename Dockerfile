@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-RUN apt install apache2 
+RUN apt-get install -y apache2 
 CMD [“echo”,”Image created”] 
 
