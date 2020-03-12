@@ -1,5 +1,4 @@
-FROM centos:7 
-RUN yum update 
-RUN yum  install –y nginx 
+FROM ubuntu:latest
+RUN apt-get install –y nginx 
 CMD [“echo”,”Image created”] 
 
