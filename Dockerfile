@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-RUN apt-get install nginx 
+RUN apt install nginx 
 CMD [“echo”,”Image created”] 
 
